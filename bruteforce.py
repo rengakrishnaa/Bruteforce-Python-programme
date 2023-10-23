@@ -10,7 +10,7 @@ def extract(zip , password):
 
 def main():
     print("[+] Beginning bruteforce ")
-    with ZipFile('enc.zip') as zf:
+    with ZipFile('zipname.zip') as zf:
         with open('rockyou.txt', 'rb') as f:
 
             for i in f:
